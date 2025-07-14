@@ -11,7 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main class="container">
+    <main >
+        <section class="container">
         <nav>
             <figure>
                 <img src="./assets/images/logo.png" alt="">
@@ -24,7 +25,7 @@
                 <li><a href="">Home</a></li>
                 <li><a href="">Product</a></li>
                 <li><a href="">About Us</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#contact-me">Contact</a></li>
             </ul>
         </nav>
    
@@ -40,20 +41,101 @@
         </div>
 
     </section>
-    <section class="categories"><h2>Categories</h2></section>
+    
+    <section class="categories container">
+        <h2 class="common-section-title">Categories</h2>
+    </section>
     <div class="categories-card-container">
-        <div class="cattegories-card">
+        <div class="categories-card categories-card-1">
             <h3>Watch</h3>
             <img src="./assets/images/categories/watch.png" alt="">
 
         </div>
-        <div>
+        <div class="categories-card categories-card-2">
+            <h3>Bag</h3>
+            <img src="./assets/images/categories/bag.png" alt="">
 
         </div>
-        <div>
+        <div class="categories-card categories-card-3">
+            <h3>Shoes</h3>
+            <img src="./assets/images/categories/shoes.png" alt="">
 
         </div>
+       
     </div>
+    </section>
+    <section class="shoes-backpak-parent">
+    <div class="shoes-section container">
+        <div class="all-taitel-parents">
+            <h2>Shoes</h2>
+            <p>see all</p>
+        </div>
+        <div class="shoe-card-container">
+            <div class="shoe-card">
+                <img src="./assets/images/shoes/shoe-1.png" alt="">
+                <h2>Reebok Dart Men's Shoes</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <span class="card-price">$1289</span>
+                <button class="panda-btn">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="shoe-card">
+                <img src="./assets/images/shoes/shoe-2.png" alt="">
+                <h2>Reebok Pump</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <span class="card-price">$799</span>
+                <button class="panda-btn">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="shoe-card">
+                <img src="./assets/images/shoes/shoe-3.png" alt="">
+                <h2>Reebok All Terrain</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <span class="card-price">$699</span>
+                <button class="panda-btn">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        </div>
+        <div class="shoes-section container">
+        <div class="all-taitel-parents">
+            <h2>Backpack</h2>
+            <p>see all</p>
+        </div>
+        <div class="shoe-card-container ">
+            <div class="shoe-card">
+                <img class="bag-1" src="./assets/images/bags/bag-1.png" alt="">
+                <h2>Ison Backpack</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <span class="card-price">$1189</span>
+                <button class="panda-btn">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="shoe-card">
+                <img src="./assets/images/bags/bag-2.png" alt="">
+                <h2>Biaowang Backpack</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <span class="card-price">$769</span>
+                <button class="panda-btn">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="shoe-card">
+                <img src="./assets/images/bags/bag-3.png" alt="">
+                <h2>Dxyizu WS54 Smart</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <span class="card-price">$899</span>
+                <button class="panda-btn">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+            
+        </div>
+        </div>
+    </section>
+    <section id="contact-me" class="contacts-us container">
+        <h2>LET'S STAY IN TOUCH</h2>
+        <P>Get updates on sales specials and more</P>
+        <div class="input-btn-parent">
+            <input type="text" placeholder="Enter your email">
+            <button class="panda-btn">Send</button>
+
+        </div>
+
+    </section>
      
 </main>
     
